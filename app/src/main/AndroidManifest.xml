@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.olia.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Controller.ActivityFirstTab">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Controller.ActivityTeacherTab"
+            android:label="@string/title_activity_first"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Controller.ActivityStudentTab"
+            android:label="@string/title_activity_first"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Controller.ActivityStudentTest"
+            android:label="@string/title_activity_first"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Controller.ActivityTeacherMain" />
+        <activity
+            android:name=".Controller.ActivityTeacherNewQuestion"
+            android:label="@string/title_activity_first"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Controller.ActivityTeacherAddTest" />
+        <activity android:name=".Controller.ActivityStudentResult" />
+        <activity android:name=".Controller.ActivityTeacherEditQuestion" />
+        <activity android:name=".Controller.ActivityTeacherEditTest" />
+        <activity android:name=".Controller.ActivityTeacherShowUsers" />
+        <activity android:name=".Controller.ActivityTeacherAddUser" />
+        <activity android:name=".Controller.ActivityTeacherEditUser"></activity>
+    </application>
+
+</manifest>

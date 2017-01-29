@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a0b0a"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="296dp"
+        android:layout_height="40dp"
+        android:id="@+id/editTextQuestionInEditQ"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#014a03" />
+
+    <EditText
+        android:layout_width="296dp"
+        android:layout_height="40dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextWeightInEditQ"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#014a03" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/true_answers"
+            android:id="@+id/textView"
+            android:textColor="#fffdfd"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/false_answers"
+            android:id="@+id/textView2"
+            android:textStyle="bold|italic"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+
+        <ListView
+            android:id="@+id/listTrueAnswers"
+            android:layout_width="145dp"
+            android:layout_height="176dp"
+            android:background="#a9f0a3"
+            android:layout_marginTop="10dp">
+        </ListView>
+        <ListView
+            android:id="@+id/listFalseAnswers"
+            android:layout_width="145dp"
+            android:layout_height="176dp"
+            android:background="#daf3944f"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_answers"
+        android:id="@+id/buttonAddNewAnsw"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_field" />
+
+    <Button
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_question"
+        android:id="@+id/buttonEditInEditQ"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/text_field"
+        android:contextClickable="false"
+        android:layout_marginTop="5dp" />
+</LinearLayout>

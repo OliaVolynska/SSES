@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="307dp"
+        android:layout_height="45dp"
+        android:id="@+id/editTextSearchThemes"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#144907"
+        android:hint="@string/search_themes"
+        android:paddingLeft="15dp" />
+
+    <ListView
+        android:id="@+id/listViewThemes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d0ecd2">
+    </ListView>
+</LinearLayout>

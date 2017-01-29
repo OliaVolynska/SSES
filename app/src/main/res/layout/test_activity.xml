@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:gravity="center_horizontal"
+        android:baselineAligned="false"
+        android:background="@drawable/background_5">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textViewStudentName"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/name"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textViewThemeTest"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/test"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+    <TextView
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:gravity="center"
+            android:id="@+id/questionTextView"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/question"
+        android:background="@drawable/text_field"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.41">
+
+        <ListView
+            android:id="@+id/listRadioButton"
+            android:layout_width="191dp"
+            android:layout_height="176dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/for_list"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:paddingLeft="5dp">
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="@string/confirm"
+            android:id="@+id/buttonConfirm"
+            android:background="@drawable/button_conf"
+            android:layout_marginBottom="3dp"
+            android:paddingBottom="7dp"
+            android:paddingRight="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:weightSum="1">
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/buttonPrev"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/previous_button"
+            android:src="@drawable/arrow_left"
+            android:background="@drawable/arrow_left" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/buttonNext"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/next_button"
+            android:src="@drawable/arrow_right"
+            android:background="@drawable/arrow_right"
+            android:layout_marginLeft="10dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

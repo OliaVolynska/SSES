@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/toast_layout"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="10dp"
+android:background="#2f342f"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:background="#070707">
+
+        <EditText
+            android:layout_width="269dp"
+            android:layout_height="40dp"
+            android:id="@+id/editTextThemeInD"
+            android:hint="@string/theme"
+            android:background="@drawable/edit"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:text="@string/add"
+            android:id="@+id/buttonAddTheme"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_add" />
+
+    </LinearLayout>
+
+</LinearLayout>

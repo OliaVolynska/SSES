@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/back_6">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textViewName"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#e6f4dc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textViewTest"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/test"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#e6f4dc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textViewResult"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/mark"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#e6f4dc"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewWrongQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:background="@drawable/for_list"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:dividerHeight="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.59"
+        android:padding="10dp">
+    </ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:text="@string/back"
+        android:id="@+id/buttonBackInRes"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_add" />
+</LinearLayout>

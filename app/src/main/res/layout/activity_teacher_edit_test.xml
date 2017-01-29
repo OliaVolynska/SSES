@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a0b0a"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="296dp"
+        android:layout_height="40dp"
+        android:id="@+id/editTextTitleTestInEdit"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#014a03" />
+
+    <EditText
+        android:layout_width="296dp"
+        android:layout_height="40dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextMaximalMarkInEdit"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#014a03" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+
+        <ListView
+            android:id="@+id/listThemesInEdit"
+            android:layout_width="191dp"
+            android:layout_height="176dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/for_list"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.08"
+            android:padding="10dp">
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="@string/edit"
+            android:id="@+id/buttonEditTest"
+            android:layout_gravity="center_horizontal"
+            android:contextClickable="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_circle" />
+    </LinearLayout>
+
+</LinearLayout>

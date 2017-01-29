@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_3"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_weight="0.43"
+        android:background="@drawable/back_for_q"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/your_question"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewInfQuestion"
+            android:text="@string/question"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewInfTheme"
+            android:text="@string/theme"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewInfWeight"
+            android:text="@string/weight"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/true_answer"
+            android:id="@+id/textViewInfTrue"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/false_answer"
+            android:id="@+id/textViewInfFalse"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/add_ans"
+            android:id="@+id/buttonAddAns"
+            android:background="@drawable/button_add"
+            android:textSize="12sp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/back"
+            android:id="@+id/buttonBackToMenuTeacher"
+            android:background="@drawable/button_add"
+            android:layout_marginLeft="10dp"
+            android:textSize="12dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

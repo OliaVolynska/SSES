@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#162f11">
+
+    <EditText
+        android:layout_width="307dp"
+        android:layout_height="45dp"
+        android:id="@+id/editTextSearchThemes"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/search_themes"
+        android:paddingLeft="15dp"
+        android:background="@drawable/edit"
+        android:layout_marginTop="5dp" />
+
+    <ListView
+        android:id="@+id/listViewThemes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/for_list"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp">
+    </ListView>
+</LinearLayout>

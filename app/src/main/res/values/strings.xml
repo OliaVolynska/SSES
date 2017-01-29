@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Test</string>
+
+    <string name="test">Test:</string>
+    <string name="title_activity_first">FirstTabActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_activity_teacher_edit_question">ActivityTeacherEditQuestion</string>
+
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="exit">EXIT</string>
+
+    <string name="next_button">Next</string>
+    <string name="previous_button">Prev</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect :(</string>
+    <string name="confirm">Confirm</string>
+
+    <string-array name="planets_menu">
+        <item>Add question</item>
+        <item>Generate test</item>
+        <item>Show result of students</item>
+        <item>Show themes</item>
+        <item>Show questions</item>
+        <item>Show users</item>
+        <item>Delete all test</item>
+        <item>Back to tabs</item>
+        <item>Exit</item>
+    </string-array>
+
+
+    <string name="theme">Theme:</string>
+    <string name="input_password">Input password:</string>
+    <string name="full_name">Full name:</string>
+    <string name="your_name"> Your name</string>
+    <string name="change_pass">Change pass</string>
+    <string name="enter">Enter</string>
+    <string name="choose_a_test">Choose a test:</string>
+    <string name="take_the_test">Take the test</string>
+    <string name="password"> Password</string>
+    <string name="name">Name:</string>
+    <string name="question">Question:</string>
+    <string name="questions">Questions</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_search">Search</string>
+    <string name="delete_record">Удалить запись</string>
+    <string name="false_answer">False answer:</string>
+    <string name="true_answer">True answer:</string>
+    <string name="weight">Weight:</string>
+    <string name="add_question">Add question</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="add">Add</string>
+    <string name="your_question">Your question</string>
+    <string name="add_answers">Add answers</string>
+    <string name="back">Back</string>
+    <string name="add_new_theme">Add new theme</string>
+    <string name="add_new_question">Add new question</string>
+    <string name="add_new_test">Generate new test</string>
+    <string name="no_theme">NO THEMES</string>
+    <string name="no_question">NO QUESTIONS</string>
+    <string name="no_test">NO TESTS</string>
+    <string name="no_students">NO STUDENTS</string>
+    <string name="maximal_mark">Maximal mark</string>
+    <string name="titleTest">Title test</string>
+    <string name="testMessage">Test has been added. Add more?</string>
+    <string name="mark">Mark:</string>
+    <string name="show_questions">Show false questions</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="show_answers">Show answers</string>
+    <string name="true_answers">True answers</string>
+    <string name="false_answers">False answers</string>
+    <string name="input_login">Input login:</string>
+    <string name="login">Login</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="add_new_user">Add new user</string>
+    <string name="search_themes">Search themes..</string>
+    <string name="search_students">Search students..</string>
+    <string name="add_ans">Add Ans</string>
+    <string name="wrong_questions">Wrong questions</string>
+    <string name="message_failed_entry">Failed entry. Wrong login or password.</string>
+    <string name="message_data_saved">Data saved</string>
+    <string name="test_for_extra">Test</string>
+    <string name="id_user">idUser</string>
+    <string name="test_not_finished">Test was not finished</string>
+    <string name="perfectly">Perfectly!</string>
+    <string name="message_theme_exists">Theme exists!</string>
+    <string name="message_question_exists">Such question with such theme already exists!</string>
+    <string name="message_equal_answer">True and false answer can not be equal!</string>
+    <string name="message_answer_exists">Such answer for the question already exists!</string>
+    <string name="message_login_exists">Such login already exists!</string>
+    <string name="message_add_user">User has been added. Add more?</string>
+    <string name="message_delete_last_true">You cannot delete last true answer!</string>
+    <string name="message_delete_last_false">You cannot delete last false answer!</string>
+    <string name="message_question_edited">Question has been edited.</string>
+    <string name="message_user_edited">User has been edited.</string>
+    <string name="message_test_edited">Test has been edited!</string>
+    <string name="message_test_exists">Test exists!</string>
+    <string name="numberQ">sNumberQuestion</string>
+    <string name="ok">OK</string>
+    <string name="add_new_answers">Add new answers</string>
+    <string name="edit_question">Edit question</string>
+
+
+</resources>

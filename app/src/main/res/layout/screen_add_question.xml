@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a0b0a"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="296dp"
+        android:layout_height="40dp"
+        android:id="@+id/editTextQuestionInAddQ"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit"
+        android:hint="@string/question"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#014a03" />
+
+    <Spinner
+        android:id="@+id/spinnerThemeInAddQ"
+        android:layout_width="296dp"
+        android:layout_height="53dp"
+        android:background="@drawable/drop_down"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:layout_width="296dp"
+        android:layout_height="40dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextWeightInAddQ"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit"
+        android:layout_marginTop="10dp"
+        android:hint="@string/weight"
+        android:paddingLeft="10dp"
+        android:textColor="#014a03" />
+
+    <EditText
+        android:layout_width="296dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit"
+        android:layout_marginTop="15dp"
+        android:hint="@string/true_answer"
+        android:id="@+id/editTextTrueAnswerInAddQ"
+        android:paddingLeft="10dp"
+        android:textColor="#014a03" />
+
+    <EditText
+        android:layout_width="296dp"
+        android:layout_height="40dp"
+        android:id="@+id/editTextFalseAnswerInAddQ"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit"
+        android:layout_marginTop="15dp"
+        android:hint="@string/false_answer"
+        android:paddingLeft="10dp"
+        android:textColor="#014a03" />
+
+    <Button
+        android:layout_width="142dp"
+        android:layout_height="72dp"
+        android:text="@string/add_question"
+        android:id="@+id/buttonAddInAddQ"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_circle"
+        android:contextClickable="false"
+        android:layout_weight="0.03" />
+</LinearLayout>
